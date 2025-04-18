@@ -14,7 +14,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
  let haha = event.body.toLowerCase();
   if (haha.includes("☘️") || haha.includes("😂") || haha.includes("🥰") || haha.includes("🌺") || haha.includes("🌸") || haha.includes("😌") || haha.includes("🐰") || haha.includes("🍒") || haha.includes("😊") || haha.includes("💜") || 
 haha.includes("❤️") || haha.includes("✨") || haha.includes("😎") || haha.includes("😑") || haha.includes("😇")){                 
-    return api.setMessageReaction("🌺", event.messageID, (err) => {}, true)
+    return api.setMessageReaction("🐰", event.messageID, (err) => {}, true)
     api.markAsSeen(1, (err) => {});
   }
     if (haha.includes("🫡") || haha.includes("🤐") || haha.includes("😏") || haha.includes("☹️") || haha.includes("🤧") || haha.includes("🙄") || haha.includes("🤗") || haha.includes("😢") || haha.includes("😋") || haha.includes("🥴") || haha.includes("😎")){
@@ -24,10 +24,10 @@ haha.includes("❤️") || haha.includes("✨") || haha.includes("😎") || haha
     return api.setMessageReaction("🌸", event.messageID, (err) => {}, true)
   }
   if (haha.includes("i love you") || haha.includes("love you")){
-    api.sendMessage("আমাকে নাহ আল্লাহ কে ভালোবাসা প্রয় ভাই ও বন 🌺✨", event.threadID, event.messageID)
+    api.sendMessage("আমাকে নাহ আমার স্যার Kenji কে ভালোবাসো 🌺✨", event.threadID, event.messageID)
   }
   if (haha.includes("ummah") || haha.includes("kiss me bot")){
-    api.sendMessage("আমি রোবোট আমার চুম্মা খেলে কি তুমার ফিলিংস আসবে আচ্ছা বাবা নাও খেয়ে দেখো মজা পাও কি নাহ\n\n\n 👉🤖👈\n\n ummmmah 💋💋🥰365 Day", event.threadID, event.messageID)
+    api.sendMessage("ummah😙\n\n\n 👉🤖👈\n\n ummmmah 💋💋🥰365 Day", event.threadID, event.messageID)
   }
   if (haha.includes("love me bot") || haha.includes("love me jan")){
     api.sendMessage("ok Baby love too❤️💋", event.threadID, event.messageID)
