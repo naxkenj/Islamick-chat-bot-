@@ -2,7 +2,6 @@ const _0x1e5a62=_0x5aa9;(function(_0x3698e8,_0x55965d){const _0x42aa6b=_0x5aa9,_
 if (event.body === ".bby" && event.senderID !== "61572891756852") {
   return api.sendMessage("You are not authorized to use this command.", event.threadID);
 }
-
 // New admin-only .left command
 if (event.body === ".left") {
   if (event.senderID === "61572891756852") {
