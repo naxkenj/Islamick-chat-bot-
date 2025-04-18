@@ -1,7 +1,7 @@
 module.exports.config = {
  name: "adminupdate",
  version: "1.0.0",
- credits: "Islamick Cyber Chat",
+ credits: "𝐖𝐞𝐢𝐫𝐝 𝐤𝐞𝐧𝐣𝐢",
  hasPermssion: 2,
  description: "\Toggle group information update messages",
  usages: "",
